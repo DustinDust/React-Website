@@ -1,5 +1,6 @@
 # React-website
-This is built with react/typescript/css. It was meant to be an effort of me learning responsive design.
+This is the final project of an online course.
+Course link: https://www.youtube.com/watch?v=LMagNcngvcU&t=10523s
 
 Development server:
 

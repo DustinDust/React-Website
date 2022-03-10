@@ -1,6 +1,18 @@
 import React from 'react';
-import styles from './Feature.module.css';
+import './Feature.css';
 
-export default function Feature() {
-  return <div>Feature</div>;
-}
+const Feature: React.FC<{ title: string; text: string }> = (props) => {
+  return (
+    <div className={`gpt3__features-container__feature`}>
+      <div className={'gpt3__features-container__feature-title'}>
+        <div />
+        <h1>{props.title}</h1>
+      </div>
+      <div className={'gpt3__features-container__feature-text'}>
+        <p>{props.text}</p>
+      </div>
+    </div>
+  );
+};
+
+export default Feature;
